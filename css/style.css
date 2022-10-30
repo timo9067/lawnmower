@@ -1,0 +1,200 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+  font-family: sans-serif;
+}
+
+header h1 {
+  font-family: "Lobster", cursive;
+  font-size: 300%;
+  color: antiquewhite;
+  text-shadow: 4px 4px 2px rgb(23, 2, 2);
+
+  padding: 20px 30px;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.fixed-header {
+  position: fixed;
+  width: 100%;
+  background-color: #608736;
+}
+
+nav {
+  padding: 15px;
+}
+
+nav ul.navigation {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li a {
+  margin: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  text-decoration: solid;
+  color: antiquewhite;
+  font-style: italic;
+
+  text-shadow: 4px 4px 2px rgb(0, 0, 0);
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  color: #003500;
+  text-shadow: none;
+  }
+
+.marketing-slogan {
+  padding: 30px;
+  color: #f5f3ef;
+  text-align: left;
+  justify-content: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("../img/green-field-remi-muller-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 4px 4px 2px rgb(75, 74, 74);
+}
+
+.marketing-slogan h2 {
+  font-family: Lobster;
+  font-size: 250%;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.marketing-slogan p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  padding: 10px 0;
+}
+
+.product-section {
+    background-color: #83b94a;
+}
+
+.product-section h2{
+    font-family: Lobster;
+    font-size: 200%;
+    padding: 30px;
+    color: #f5f3ef;
+    text-shadow: 4px 4px 2px rgb(23, 2, 2);
+
+}
+
+
+.cards-container {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+    background-color: white;
+  border: 1px solid #003500;
+  border-radius: 8px;
+  height: 600px;
+  width: 300px;
+}
+
+.card:hover {
+    box-shadow: 0 0 50px rgba(33,33,33,.5);
+}
+
+
+.card-pic {
+  border-radius: 6px 6px 0 0;
+  height: 60%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.card-text {
+  height: 40%;
+  border-radius: 0 0 6px 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-text .item-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  padding-top: 20px;
+  padding: 20px 10px;
+}
+
+.card-text .item-description {
+  font-family: "Courier New", Courier, monospace;
+  font-size: small;
+  color: brown;
+  padding-top: 20px;
+  padding: 20px 10px;
+}
+
+.card-text .item-price {
+  font-family: "Courier New", Courier, monospace;
+  font-size: x-large;
+  text-align: right;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 0 0 8px 8px;
+}
+
+footer {
+    height: 75vh;
+    background-color: #83b94a;
+    padding: 30px;
+    color: #f5f3ef;
+    
+}
+
+footer h2 {
+    font-family: Lobster;
+    font-size: 200%;
+    color: antiquewhite;
+    text-shadow: 4px 4px 2px rgb(23, 2, 2);
+    padding-bottom: 30px;
+
+}
+
+.address {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+
+.address p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 160%;
+    padding: 20px;
+
+}
+
+.welcome-address {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 400px;
+    padding: 0 50px;
+}
