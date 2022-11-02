@@ -15,18 +15,16 @@ header h1 {
 }
 
 .fixed-header {
-    position: fixed;
-    width: 100%;
-    background-color: #608736;
-    /* opacity: 0.3; */
-  }
+  position: fixed;
+  width: 100%;
+  background-color: #608736;
+  /* opacity: 0.3; */
+}
 
-  
 header h1 a {
   text-decoration: none;
   color: antiquewhite;
 }
-
 
 nav {
   padding: 15px;
@@ -105,7 +103,7 @@ nav ul li a:hover {
 }
 
 .cards-container a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .card {
@@ -197,4 +195,22 @@ footer h2 {
   height: 100%;
   width: 400px;
   padding: 0 50px;
+}
+
+.contacts-social {
+  padding: 20px;
+}
+
+.contacts-social ul {
+  display: flex;
+}
+
+.contacts-social a {
+  font-size: 300%;
+  text-decoration: none;
+  color: #f5f3ef;
+  padding-right: 30px;
+}
+.contacts-social a:hover {
+  color: aqua;
 }
